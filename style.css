@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+/*Index*/
+body{
+    background-color: gray;
+    background-image: linear-gradient(black,gray);
+}
+header{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #975C34;
+}
+
+#logo{
+    width: 200px;
+    
+}
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+li{
+    list-style: none;
+}
+a{
+    list-style: none;
+}
+main{ 
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.facciones:hover{
+    transform: translate(100px);
+    width: 300px;
+}
+#wulin{
+    width: 200px;
+}
+footer{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #975C34;
+    align-items: center;
+    justify-items: center;
+}
+#footer{
+    display: grid;
+    justify-items: center;
+    transition: all .3s;
+}
+#redessociales{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+#insta{
+    width: 75px;
+}
+#twitter{
+    width: 100px;
+}
+/*Fin*/
+/*FAQ*/
+.faq{
+    background-color: #2A2928;
+}
+.principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.caja{
+    margin: 10px;
+    background-color: #676360;
+    border-radius: 20px;
+}
+/*Fin*/
+/*nosotros*/
+
+#roster{
+    width: 1209px;
+    height: 300px;
+}
+#texto{
+    background-color: #54514D;
+}
+/*caballeros*/
+.box1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img1{
+    width: 300px;
+}
+.caballeros{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
